@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b0bec5; /* Grey background */
+    color: #fff; /* Light text color for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #cfd8dc; /* Light pastel blue container */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #001f3f; /* Navy blue color for heading */
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.color-box {
+    width: 100%;
+    height: 150px;
+    border-radius: 12px;
+    border: 1px solid #37474f; /* Darker pastel blue border for contrast */
+    margin-bottom: 20px;
+    background-color: #37474f; /* Default dark pastel blue background */
+    transition: background-color 0.5s ease;
+}
+
+button {
+    background-color: #37474f; /* Dark pastel blue background for button */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #263238; /* Darker pastel blue on hover */
+    transform: scale(1.05);
+}
+
+#colorCode {
+    font-size: 20px;
+    color: #37474f; /* Dark pastel blue text color */
+    font-weight: bold;
+    margin-top: 10px;
+}
